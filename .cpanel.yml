@@ -1,0 +1,7 @@
+# .cpanel.yml
+
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home1/codensk1/repositories/htmls
+    - /bin/cp -r * $DEPLOYPATH
