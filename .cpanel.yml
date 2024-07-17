@@ -3,5 +3,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home1/codensk1/repositories/htmls
-    - /bin/cp -r * $DEPLOYPATH
+    - export DEPLOYPATH=/home1/codensk1/repositories/html-sample
+    - /bin/cp * $DEPLOYPATH
