@@ -1,7 +1,8 @@
-# .cpanel.yml
-
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home1/codensk1/public_html/html-samplie
-    - /bin/cp -r * $DEPLOYPATH
+    - export DEPLOYPATH=/home1/codensk1/public_html/html-sample
+    - cd $DEPLOYPATH
+    - if [ -d ".git" ]; then git pull origin main; else git clone git@github.com:SveerPal/html-sample.git $DEPLOYPATH; fi
+    - /bin/cp -a $DEPLOYPATH/* $DEPLOYPATH
+
