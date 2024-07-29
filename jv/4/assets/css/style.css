@@ -59,7 +59,7 @@ p{
 top- header seaction start here 
 -------------------------------*/
 section.top-header-sec {
-    background: #fac313;
+    background: #feeaac;
     padding: 10px 0px;
 }
 .top-header-wrap {
@@ -85,18 +85,18 @@ section.home-silder-sec {
 
 .top-left ul li span {
     font-size: 18px;
-    color: #fff;
+    color: #000;
     font-weight: 400;
 }
 .top-left ul li  a {
-    color: #fff;
+    color: #000;
     font-weight: 400;
     font-size: 18px;
 }
 
 .right-left ul li a {
     font-size: 18px;
-    color: #fff;
+    color: #000;
     font-weight: 400;
 }
 .right-left ul.topba-list-social {
@@ -110,7 +110,7 @@ section.home-silder-sec {
 
 .right-left ul.topba-list-social span {
     padding-right: 4px;
-    color: #fff;
+    color: #000;
     font-weight: 400;
     font-size: 18px;
 }
@@ -177,11 +177,11 @@ section.navbaar-sec .navbaar-wrap nav.navbar {
     left: 0;
     width: 2px;
     height: 14px;
-    background: white;
+    background: black;
 }
 
 .navbar-nav > li > a {
-    font-size: 18px;
+    font-size: 17px;
     padding: 20px  15px!important;
     font-weight: 400;
     color: #373636;
@@ -232,15 +232,15 @@ section.banner-sec button.carousel-control-next {
 
 .banner-text h2 {
     font-size: 90px;
-    color: #fac313;
+    color: #ecb465;
     margin: 0px;
     line-height: 80px;
     margin-bottom: 40px;
     font-weight: 600;
 }
 .banner-text p .main-btn:hover {
-    background: #fac313;
-    border: 2px solid #fac313;
+    background: #ecb465;
+    border: 2px solid #ecb465;
     color: #fff;
 }
 
@@ -255,14 +255,15 @@ section.banner-sec button.carousel-control-next {
     gap: 25px;
     justify-content: flex-start;
     margin: 24px 0px;
-    border-top: 1px solid #fac313;
-    border-bottom: 1px solid #fac313;
+    border-top: 1px solid #ecb465;
+    border-bottom: 1px solid #ecb465;
     padding: 10px 0px;
 }
 
 .banner-text ul li {
     font-size: 17px;
-    color: #fac313;
+    color: #ecb465;
+    font-family: 'gilroy-semibolduploaded_file';
     position: relative;
 }
 
@@ -273,7 +274,7 @@ section.banner-sec button.carousel-control-next {
     right: -14px;
     width: 1px;
     height: 19px;
-    background: #fac313;
+    background: #ecb465;
 }
 section.banner-sec .carousel-inner .carousel-item {
     height: 621px;
@@ -297,13 +298,12 @@ section.banner-sec .carousel-caption {
     margin-top: 40px;
 }
 .banner-text p .main-btn {
-    border: 2px solid #00a651;
-    font-size: 18px;
-    padding: 6px 15px;
+    border: 2px solid #ecb465;
+    font-size: 17px;
+    padding: 5px 15px;
     display: inline-block;
     border-radius: 100px;
-    color: #ffffff;
-    background: #00a651;
+    color: #ecb465;
 }
 .banner-text p {
     margin-bottom: 20px;
@@ -443,7 +443,7 @@ section.why-sec .section-title h2 {
 }
 .section-title h2 {
     font-size: 44px;
-    color: #000000;
+    color: #4d4949;
     text-transform: capitalize;
     word-spacing: 5px;
     font-weight: 700;
@@ -551,13 +551,12 @@ div#testimonial .owl-nav button.owl-next:hover {
 }
 
 .contact-form {
-    background: #8cdbab;
+    background: #feeaac;
     border-radius: 10px;
 }
 
 .contact-img {
     position: relative;
-    z-index: 2;
 }
 
 .numerology-wrap {
@@ -610,31 +609,31 @@ div#testimonial .owl-nav button.owl-next:hover {
 
 .contact-form {
     position: relative;
-    z-index: 1;
 }
 
 .form-wrap {
-    position: absolute;
     top: 0;
-    padding: 50px 50px 50px 50px;
+    padding: 40px;
     width: 100%;
     border-radius: 10px;
+    background: white;
 }
 .form-wrap h2 {
     text-align: center;
     margin-bottom: 30px;
-    color: #ffffff;
-    font-family: 'gilroy-semibolduploaded_file';
+    color: #000000;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 40px;
 }
 
 
 .form-wrap form .form-group input {
     background: transparent;
     width: 100%;
-    border-bottom: 1px solid #ffffff !important;
-    border: transparent;
-    padding: 6px 0px;
-    color: #fff;
+    padding: 8px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
 }
 
 .form-wrap form .form-group {
@@ -645,11 +644,10 @@ div#testimonial .owl-nav button.owl-next:hover {
 .form-wrap form .form-group  textarea {
     background: transparent;
     width: 100%;
-    border-bottom: 1px solid #ffffff !important;
-    border: transparent;
-    padding: 6px 0px;
+    padding: 10px;
     height: 128px;
-    color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
 }
 
 .form-wrap form .form-group  button {
@@ -657,24 +655,23 @@ div#testimonial .owl-nav button.owl-next:hover {
     display: block;
     margin: 0 auto;
     border: none;
-    background: #ffffff;
-    color: #000;
-    padding: 8px 16px;
-    font-size: 19px;
+    background: #00a651;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: 'gilroy-regularuploaded_file';
     transition: 0.3s;
     border-radius: 4px;
-    border-radius: 100px;
+    width: 100%;
 }
 
 .form-wrap form .form-group button:hover {
-    background: #00a651;
-    color: #fff;
+    background: #f5bd08;
 }
 
 section.contact-sec {
+    background: #fac3140a;
     padding: 60px 0px;
-    position: relative;
-    background-size: cover !important;
 }
 section.bg-img-sec4 img {
     width: 100%;
@@ -692,11 +689,10 @@ blog section start here
 ============================= */
 section.blog-sec {padding: 60px 0px;background-attachment: fixed !important;background-size: cover !important;}
 .blog {
-    background: #ffffff;
+    background: #f4f4f4;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    position: relative;
 }
 .blog h3 {
     color: #b48a44;
@@ -710,25 +706,28 @@ section.blog-sec {padding: 60px 0px;background-attachment: fixed !important;back
 }
 .blog span {
     font-size: 16px;
-    color: #000000;
+    color: #00a651;
     display: block;
     margin: 0px;
     padding: 4px 0px;
-    font-weight: 400;
+    font-weight: 500;
 }
 .blog figure img {
     width: 100%;
-    border-radius: 10px;
 }
 .blog figure {
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 
 .blog figure img {
+    transform: scale(1);
+    transition: 2s;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .blog figure:hover img {
-    /* transform: scale(1.3); */
+    transform: scale(1.3);
 }
 .blog p {
     font-size: 17px;
@@ -737,10 +736,7 @@ section.blog-sec {padding: 60px 0px;background-attachment: fixed !important;back
 .blog figure {
 }
 .blog h3 a {
-    color: #00a651;
-    font-size: 20px;
-    margin-bottom: 10px;
-    display: block;
+    color: #000000;
 }
 .blog-info {
     padding: 10px;
@@ -843,7 +839,7 @@ section.insta-feed-sec {
 .section-padding .owl-nav button.owl-prev {
     position: absolute;
     top: 42%;
-    left: -15px;
+    left: -60px;
     line-height: 20px;
     width: 48px;
     height: 48px;
@@ -855,7 +851,7 @@ section.insta-feed-sec {
 .section-padding .owl-nav button.owl-next {
      position: absolute;
      top: 42%;
-     right: -15px;
+     right: -60px;
      line-height: 20px;
      width: 48px;
      height: 48px;
@@ -907,8 +903,8 @@ section.insta-feed-sec {
     content: '';
     left: 17px;
     bottom: 0;
-    border-left: 2px solid #FFC107;
-    border-bottom: 2px solid #FFC107;
+    border-left: 2px solid #00a651;
+    border-bottom: 2px solid #00a651;
     width: 90px;
     height: 90px;
 }
@@ -918,7 +914,7 @@ section.insta-feed-sec {
     content: '';
     top: 37px;
     right: 103px;
-    background-color: #8cdbab;
+    background-color: #fac3140a;
     width: 516px;
     height: 667px;
     z-index: -1;
@@ -1173,9 +1169,8 @@ section.why-sec {
     /* filter: brightness(0) invert(1); */
 }
 section.astrology-sec {
+    background: #fac3140a;
     padding: 50px 0px;
-    background-size: cover !important;
-    position: relative;
 }
 .why-wrap ul li:hover:after {background: #06a659;}
 a.btn-style-1 {
@@ -1188,7 +1183,7 @@ a.btn-style-1 {
     font-size: 18px;
     margin-top: 20px;
     transition: 0.3s ease-in-out;
-    border-radius: 100px;
+    border-radius: 4px;
 }
 
 a.btn-style-1:hover {
@@ -1196,7 +1191,7 @@ a.btn-style-1:hover {
 }
 a.blog-button {
     color: #00a651;
-    font-size: 17px;
+    font-size: 16px;
     display: block;
     margin-top: 10px;
 }
@@ -1212,13 +1207,13 @@ section.copy-right-sec {
 }
 
 .copy-wrap p a {
-    color: #fac313;
+    color: #e7c65a;
 }
 
 /* ---------------------------
 product section start here
 ------------------------------ */
-.products {border: 1px solid rgba(128, 128, 128, .16);box-shadow: 0 1px 4px #8080801c;padding: 20px;border-radius: 10px;background: #fff;}
+.products {border: 1px solid rgba(128, 128, 128, .16);box-shadow: 0 1px 4px #8080801c;padding: 20px;border-radius: 10px;}
 
 .products .al-product-image {
     position: relative;
@@ -1251,9 +1246,9 @@ product section start here
 }
 
 .pro-info h2 a {
-    color: #00a651;
+    color: #161817;
     font-size: 20px;
-    /* font-weight: 500; */
+    font-weight: 500;
     display: block;
 }
 
@@ -1273,12 +1268,11 @@ product section start here
     width: 100%;
     border: transparent;
     background: #00a651;
-    padding: 7px 0px;
+    padding: 10px;
     color: #fff;
-    font-size: 16px;
+    font-size: 18px;
     transition: 0.3s ease-in-out;
     border-radius: 4px;
-    border-radius: 100px;
 }
 
 .productitem-price {
@@ -1312,22 +1306,41 @@ product section start here
     padding: 10px;
 }
 .screenshot_slider .owl-item.center .item img {
-    /* transform: scale(1.1); */
+    transform: scale(1.1);
 }
 .screenshot_slider .owl-item .item img {
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
     transition: 0.3s;
-    /* -webkit-transform: scale(0.80); */
+    -webkit-transform: scale(0.80);
     -ms-transform: scale(0.80);
+    transform: scale(0.80);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.screenshot_slider  .owl-item.active.center .achv-content {
+    position: absolute;
+    background: #fff;
+    padding: 20px;
+    text-align: center;
+    bottom: -6px;
+    width: 100%;
+    left: 0px;
+    border-radius: 10px;
+}
+.screenshot_slider  .achv-content {
+    background: #fff;
+    padding: 20px;
+    position: relative;
+    width: 76%;
+    bottom: 83px;
+    left: 12%;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     border-radius: 10px;
 }
-
 div#product .owl-nav button.owl-prev {
     position: absolute;
     top: 42%;
-    left: -15px;
+    left: -60px;
     line-height: 20px;
     width: 48px;
     height: 48px;
@@ -1340,7 +1353,7 @@ div#product .owl-nav button.owl-prev {
 div#product .owl-nav button.owl-next {
     position: absolute;
     top: 42%;
-    right: -15px;
+    right: -60px;
     line-height: 20px;
     width: 48px;
     height: 48px;
@@ -1360,7 +1373,7 @@ div#product .owl-nav button.owl-next {
 }
 
 .astrology-wrap .ser-wrap p {
-    color: #001;
+    color: #fff;
     font-size: 16px;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -1370,21 +1383,20 @@ div#product .owl-nav button.owl-next {
 }
 
 .astrology-wrap .ser-wrap h3 a {
-    font-size: 20px;
-    /*color: #00a651;*/
-    color: #fac313e0;
+    font-size: 18px;
+    color: #fff;
 }
-.astrology-wrap > .ser-wrap > a {color: #09a957;font-size: 17px;margin-top: 10px;display: inline-block;}
+.astrology-wrap > .ser-wrap > a {color: #ffffff;font-size: 17px;margin-top: 10px;display: inline-block;}
 div#astrology .owl-nav button.owl-prev {
     position: absolute;
     top: 44%;
-    left: -15px;
+    left: -60px;
     line-height: 20px;
     width: 48px;
     height: 48px;
-    background: #09a957;
+    background: #00a651;
     border-radius: 100px;
-    color: #fff !important;
+    color: #ffffff !important;
     margin: 0px;
     font-size: 26px;
 }
@@ -1392,7 +1404,7 @@ div#astrology .owl-nav button.owl-prev {
 div#astrology .owl-nav button.owl-next {
     position: absolute;
     top: 44%;
-    right: -15px;
+    right: -60px;
     line-height: 20px;
     width: 48px;
     height: 48px;
@@ -1407,88 +1419,26 @@ div#astrology .owl-nav button.owl-next {
     display: block;
 }
 .astrology-wrap {
-    background: #ffffff;
+    background: #00a651;
     border-radius: 10px;
 }
 
-section.astrology-sec .section-title h2 {
-    color: #fff;
+.owl-nav button span {
+    font-size: 52px;
+    line-height: 12px;
 }
-
 section.products-sec {
-    padding: 50px 0px;
-    background-size: cover !important;
-    position: relative;
-}
-
-.form-wrap form .form-group input::placeholder {
-    color: #ffffffed;
-}
-
-.form-wrap form .form-group textarea::placeholder {
-    color: #fff;
-}
-.products-wrap .section-title h2 {
-    color: #fff;
-}
-.play-btn {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 1;
-}
-.play-btn a {
-    background: #e62117;
-    width: 60px;
-    height: 60px;
-    display: flex;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    border-radius: 100px;
-}
-.play-btn a i {
-    font-size: 26px;
-    color: #fff;
-}
-.cart-btn {
-    display: flex;
-    justify-content: space-between;
-    gap: 30px;
-}
-.screenshot_slider .owl-item .item {
-    padding: 10px;
-}
-section.astrology-sec:after {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    content: "";
-    /*background: #fac313e0;*/
-}
-section.products-sec:after {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    content: "";
-    /*background: #fac313e0;*/
-}
-
-
-section.contact-sec:after {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    content: "";
-  /*  background: #fac313e0;*/
+    background: #fac3140a;
+    padding: 60px 0px;
 }
 /* ---------------------------
 product section end here
 ------------------------------ */
+.owl-carousel .owl-nav button {
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.owl-carousel:hover .owl-nav button {
+    opacity: 1;
+}
