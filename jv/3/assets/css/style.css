@@ -875,10 +875,10 @@ section.insta-feed-sec {
 }
 
 .why-wrap ul li:hover {
-    background: #06a659;
+    background: #fac3140a;
 }
 
-.why-wrap ul li:hover:after {background: #eedfd0;}
+.why-wrap ul li:hover:after {background: #fac3140a;}
 
 
 .as_contact_expert .as_icon svg path {
@@ -1161,7 +1161,7 @@ section.bg-img-sec5 img {
   opacity: 0.9;
 }
 section.why-sec {
-    background: #f6f6f6;
+    background: #c8ffe31c;
     padding: 60px 0px;
 }
 
@@ -1172,7 +1172,7 @@ section.astrology-sec {
     background: #c8ffe31c;
     padding: 50px 0px;
 }
-.why-wrap ul li:hover:after {background: #06a659;}
+.why-wrap ul li:hover:after {background: #fac3140a;}
 a.btn-style-1 {
     text-align: center;
     margin: 0 auto;
