@@ -59,7 +59,7 @@ p{
 top- header seaction start here 
 -------------------------------*/
 section.top-header-sec {
-    background: #feeaac;
+    background: #fbc413;
     padding: 10px 0px;
 }
 .top-header-wrap {
@@ -903,8 +903,8 @@ section.insta-feed-sec {
     content: '';
     left: 17px;
     bottom: 0;
-    border-left: 2px solid #00a651;
-    border-bottom: 2px solid #00a651;
+    border-left: 2px solid #fbc413;
+    border-bottom: 2px solid #fbc413;
     width: 90px;
     height: 90px;
 }
@@ -1441,4 +1441,26 @@ product section end here
 
 .owl-carousel:hover .owl-nav button {
     opacity: 1;
+}
+
+
+section.stats-sec {
+    background-size: cover !important;
+    padding: 60px 0px;
+}
+.feate {
+    padding: 32px;
+    border-radius: 5px;
+    border: solid 1px rgb(236 180 101);
+    background: #ffffffad;
+}
+.feate h2 {
+    font-size: 45px;
+    font-weight: 700;
+    color: #ecb465;
+}
+.feate p {
+    color: #000000 !important;
+    font-size: 18px;
+    font-weight: 500;
 }
